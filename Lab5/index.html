@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Exercise 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="" action="">
+        <fieldset>
+            <legend>Photo Details</legend>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <p>
+                            <label>Title</label><br>
+                            <input type="text" size="80">
+                        </p>
+                        <p>
+                            <label>Description</label><br>
+                            <textarea rows="7" cols="85"></textarea>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <label>Continent</label><br>
+                            <select>
+                                <option>Choose continent</option>
+                                <option>Africa</option>
+                                <option>Asia</option>
+                                <option>Europe</option>
+                                <option>North America</option>
+                                <option>South America</option>
+                                <option>Australia</option>
+                                <option>Antarctica</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label>Country</label><br>
+                            <select>
+                                <option>Choose country</option>
+                                <option>India</option>
+                                <option>Canada</option>
+                                <option>United States</option>
+                                <option>Mexico</option>
+                                <option>Indonesia</option>
+                                <option>South Africa</option>
+                                <option>England</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label>City</label><br>
+                            <input type="text" size="45">
+                        </p>
+                    </td>
+
+                    <td>
+                        <div class="rightBoxes">
+                            <label>Copyright? </label><br>
+                            <input type="radio" name="copyright" value="1">All rights reserved<br>
+                            <input type="radio" name="copyright" value="2" checked>Creative Commons<br>
+                        </div>
+
+                        <div class="rightBoxes">
+                            <label>Creative Commons Types </label><br>
+                            <input type="checkbox">Attribution<br>
+                            <input type="checkbox">Noncommercial <br>
+                            <input type="checkbox">No Derivative Works <br>
+                            <input type="checkbox">Share Alike
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <div class="rec">
+                            <label>I accept the software license</label>
+                            <input type="checkbox">
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>
+                            <label>Rate this photo: <br>
+                                <input type="number" min="1" max="10">
+                            </label>
+                        </p>
+                        <p>
+                            <label>Color Collection: <br>
+                                <input type="color">
+                            </label>
+                        </p>
+                    </td>
+                    <td>
+                        <div class="rightBoxes">
+                            <p>
+                                <label>Date Taken: <br>
+                                    <input type="date">
+                                </label>
+                            </p>
+                            <p>
+                                <label>Time Taken: <br>
+                                    <input type="time">
+                                </label>
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="rec center">
+                            <input type="submit" class="round"> <input type="reset" value="Clear Form" class="round">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>
